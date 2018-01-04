@@ -16,7 +16,7 @@ export default () => {
       </p>
 
       <p>
-        <a className='link' href='https://github.com/lavrs/speller' target='_blank'>GitHub</a>
+        <a className='link' href='https://github.com/spacelavr/speller' target='_blank'>GitHub</a>
       </p>
     </div>
   )
