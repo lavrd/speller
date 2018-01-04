@@ -7,7 +7,7 @@ export default () => {
 
       <h2 className='text-muted'>Page not found</h2>
 
-      <a className='link text-primary' href='/'>
+      <a className='link text-primary' href='/speller'>
         <h3>
           Back to Speller
         </h3>

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types'
 
 const SpellCheck = (props) => {
   let text
@@ -13,7 +14,7 @@ const SpellCheck = (props) => {
                   onFocus={props.onFocus}
                   placeholder='Enter text for spell check'/>
 
-        <br />
+        <br/>
 
         <button className='btn btn-primary'
                 onClick={(e) => props.spellCheck(e, text.value)}>Check
@@ -27,15 +28,15 @@ const SpellCheck = (props) => {
           {props.app.currentCheck.isCheck ? 'there are no errors' : 'there are mistakes'}
         </span>
       </div>
-    </div >
+    </div>
   )
 }
 
 SpellCheck.propTypes = {
-  currentCheck: React.PropTypes.object,
-  spellCheck: React.PropTypes.func,
-  onFocus: React.PropTypes.func,
-  resultVisible: React.PropTypes.bool
+  currentCheck: PropTypes.object,
+  spellCheck: PropTypes.func,
+  onFocus: PropTypes.func,
+  resultVisible: PropTypes.bool
 }
 
 export default SpellCheck

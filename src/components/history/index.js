@@ -1,14 +1,13 @@
 import React from "react";
+import PropTypes from 'prop-types'
 
 const History = (props) => {
   const historyTemplate = props.app.history.map((item, index) => {
     return (
       <div key={index}>
-        <div data={item}>
-          <span className={item.isCheck ? 'text-success' : 'text-danger'}>
-            {item.text}
-          </span>
-        </div>
+        <span className={item.isCheck ? 'text-success' : 'text-danger'}>
+          {item.text}
+        </span>
       </div>
     )
   })
@@ -30,9 +29,9 @@ const History = (props) => {
 }
 
 History.propTypes = {
-  history: React.PropTypes.array,
-  historyVisible: React.PropTypes.bool,
-  toggleHistory: React.PropTypes.func
+  history: PropTypes.array,
+  historyVisible: PropTypes.bool,
+  toggleHistory: PropTypes.func
 }
 
 export default History
