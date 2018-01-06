@@ -1,8 +1,13 @@
 from node:alpine
 
-add . /speller
 workdir /speller
 
-expose 3000
+copy package.json .
+
+run npm install
+
+copy . .
+
+EXPOSE 3000
 
 entrypoint ["npm", "start"]
