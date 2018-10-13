@@ -11,12 +11,12 @@ export default () => {
       <HistoryC />
 
       <p>
-        <a className='link' href='http://api.yandex.ru/speller/' target='_blank'>
+        <a className='link' href='http://api.yandex.ru/speller/' target='_blank' rel='noopener noreferrer'>
           Spell check: Yandex.Speller</a>
       </p>
 
       <p>
-        <a className='link' href='https://github.com/spacelavr/speller' target='_blank'>GitHub</a>
+        <a className='link' href='https://github.com/spacelavr/speller' target='_blank' rel='noopener noreferrer'>GitHub</a>
       </p>
     </div>
   )
