@@ -1,6 +1,13 @@
 {
-  "main.css": "static/css/main.797983c1.css",
-  "main.css.map": "static/css/main.797983c1.css.map",
-  "main.js": "static/js/main.8cbb9089.js",
-  "main.js.map": "static/js/main.8cbb9089.js.map"
+  "main.css": "/speller/static/css/main.6f1d3832.chunk.css",
+  "main.js": "/speller/static/js/main.b9cd242e.chunk.js",
+  "main.js.map": "/speller/static/js/main.b9cd242e.chunk.js.map",
+  "static/js/1.d0ddaf3c.chunk.js": "/speller/static/js/1.d0ddaf3c.chunk.js",
+  "static/js/1.d0ddaf3c.chunk.js.map": "/speller/static/js/1.d0ddaf3c.chunk.js.map",
+  "runtime~main.js": "/speller/static/js/runtime~main.48e54644.js",
+  "runtime~main.js.map": "/speller/static/js/runtime~main.48e54644.js.map",
+  "static/css/main.6f1d3832.chunk.css.map": "/speller/static/css/main.6f1d3832.chunk.css.map",
+  "index.html": "/speller/index.html",
+  "precache-manifest.f5a3ac0da975652b4cf6dc01a0b50289.js": "/speller/precache-manifest.f5a3ac0da975652b4cf6dc01a0b50289.js",
+  "service-worker.js": "/speller/service-worker.js"
 }
