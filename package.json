@@ -1,5 +1,5 @@
 {
-  "homepage": "https://spacelavr.github.io/speller",
+  "homepage": "https://xthelavr.github.io/speller",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
